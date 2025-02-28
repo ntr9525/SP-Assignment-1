@@ -1,0 +1,35 @@
+//works only in GNU C
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter Mark\n");
+    scanf("%d",&n);
+
+    switch(n)
+    {
+    case 80 ... 100:
+        printf("A\n");
+        break;
+
+    case 60 ... 79:
+        printf("B\n");
+        break;
+    case 50 ... 59:
+        printf("C\n");
+        break;
+    case 40 ... 49:
+        printf("D\n");
+        break;
+    case 0 ... 39:
+        printf("F\n");
+        break;
+
+    default:
+        printf("Wrong Input\n");
+
+    }
+    return 0;
+
+}
+
